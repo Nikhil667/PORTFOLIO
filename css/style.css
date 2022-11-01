@@ -201,14 +201,16 @@ button:active {
   .hero--img {
     position: absolute;
     top: 0;
+    display: flex;
 
   }
   
   .graphic {
+    
     position: absolute;
     border: none;
-    width: 160px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
   }
   
   .a {
@@ -235,23 +237,23 @@ button:active {
    */
   .graphic1 {
     top: 0px;
-    left: 160px;
+    left: 120px;
   }
   
   .graphic2, .graphic3, .graphic7 {
     display: none;
   }
   .graphic4 {
-    top: 120px;
+    top: 60px;
     left: 20px;
   }
   .graphic5 {
-    top: 180px;
-    left: 200px;
+    top: 90px;
+    left: 150px;
   }
   .graphic6 {
-    top: 70px;
-    left: 330px;
+    top: 30px;
+    left: 240px;
   }
   
   .hero--img .graphic {
