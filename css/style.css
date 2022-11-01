@@ -190,6 +190,7 @@ button:active {
     flex-direction: column-reverse;
     justify-content: flex-start;
     position: relative;
+    overflow-x: hidden;
   }
 
   .hero--img {
