@@ -10,6 +10,11 @@
   scroll-behavior: smooth;
 }
 
+body{
+  overflow: hidden;
+  margin: 2em;
+}
+
 img{
   max-width: 100%;
 }
@@ -85,13 +90,6 @@ button:active {
 .display--none{
   display: none;
 }
-
-@media screen and (min-width: 320px) and (max-device-width: 480px) {
-
-  body{
-    margin: 2em;
-    overflow-x: hidden;
-  }
 
   section{
     margin-bottom: 10vh;
@@ -481,7 +479,7 @@ button:active {
 
 
 
-} 
+
 
 
 @media screen and (min-width: 992px){ 
